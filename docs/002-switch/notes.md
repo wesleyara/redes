@@ -1,11 +1,11 @@
-# Redes
+## Observações
 
-Conteúdo aprendido durante uma formação de Redes, tida como pré-requisito para dar seguimento nos estudos sobre Linux. Entender melhor como funciona as redes, comandos, testes e outros detalhes que norteiam esse mundo de TI.
+- O Switch é um equipamento utilizado para interconectar diversos dispositivos finais.
+- O Switch veio para substituir o Hub, pois ele tem a capacidade de filtrar os pacotes que estão sendo enviados, ou seja, ele consegue identificar qual pacote deve ser enviado para qual dispositivo final.
+- Apesar de filtrar os pacotes, ele ainda é vulnerável a ataques, caso seja sobrecarregado de endereços de IP.
+- Uma das formas de se previnir contra ataques é configurar a porta do Switch para aceitar um número máximo de endereços MAC, ao ultrapassar esse limite a porta é desligada e o ataque não teria sucesso.
 
-## Sumário
+## Conexão
 
-[1. Hub](/docs/001%20-%20hub/)
-
-[2. Switch](/docs/002%20-%20switch/)
-
-[2. Router](/docs/003%20-%20router/)
+- O Switch é conectado aos computadores utilizando o cabo direto;
+- Todos computadores da rede devem ter o endereço de IP configurado manualmente;
