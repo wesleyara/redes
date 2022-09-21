@@ -4,8 +4,6 @@ Conteúdo aprendido durante uma formação de Redes, tida como pré-requisito pa
 
 ## Sumário
 
-[1. Hub](/docs/001-hub/)
-
-[1. Switch](/docs/001-switch/)
-
-[1. Router](/docs/001-router/)
+- [Hub](/docs/001-hub/)
+- [Switch](/docs/001-switch/)
+- [Router](/docs/001-router/)
