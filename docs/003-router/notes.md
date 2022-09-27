@@ -7,6 +7,7 @@
 ## Conexão
 
 - O Router é conectado aos computadores utilizando o cabo cruzado;
+- O router necessita de um computador para ser configurado;
 - Todos computadores das redes devem ter o endereço de IP configurado manualmente;
 
 ## Configuração
