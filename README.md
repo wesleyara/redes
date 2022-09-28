@@ -48,3 +48,42 @@ O youtube usa em seu site um sistema de criptografia das informações, onde o p
 ### Máscara de rede
 ---
 A máscara de rede é usada como forma de comparação para determinar se dois equipamentos estão na mesma rede. Para isso ela vai dividir o endereço IP em dois grupos, de rede e hosts (máquinas). Tendo um padrão 255.255.255.0, onde o 255 se refere a rede e o 0 ao host.
+
+### Classes de IP
+---
+As classes de IP separam os endereços de IP em intervalos, preferinindo também suas máscara de rede. Essa análise é feita com base no primeiro valor, os intervalos são:
+ 
+- Classe A: 1-126 (Máscara: 255.0.0.0)
+- Classe B: 128-191 (Máscara: 255.255.0.0)
+- Classe C: 192-223 (Máscara: 255.255.255.0)
+- Classe D: 224-239
+- Classe E: 240-255
+
+A IETF (Internet Engineering Task Force) determinou que existiriam ao todo 5 classes de endereços IP, indo de ordem alfabética da classe A até a classe E. Porém as duas últimas classes não são usadas para serem endereçadas as máquinas. A classe D seria usada para multicast (termo usado quando queremos nos comunicar com somente algumas máquinas de nossa rede) e a classe E seria uma classe experimental. Portanto as classes de IP que podem ser endereçadas para máquinas seriam a classe A, B e C.
+
+
+### IP 127.0.0.1
+---
+O endereço 127.0.0.1 seria uma faixa de endereço IP reservada, esse seria um endereço interno da placa de rede para realizar testes e verificar se ela está de fato validando os protocolos TCP/IP.
+
+### IP Privado
+---
+Os endereços IP privados são usados para comunicação somente em minha rede local, de acordo com a especificação, eles não podem ser usados para comunicação na internet por exemplo. Os endereços IP privados são:
+
+![ip privado](/assets/ip-privado.png)
+
+### IPv6
+---
+O endereço IPv6 foi necessário porque os endereços IPv4 públicos chegaram a um fim por conta da grande popularidade da internet, smartphones, tablets, etc.
+
+### Endereço de rede
+---
+O endereço de rede é feito com base no primeiro intervalo do endereço de IP, ou seja, no IP 192.168.1.3, o endereço de rede seria 192.168.1.0.
+
+### Endereço de broadcast
+---
+O endereço de broadcast é feito com base no endereço de rede, por exemplo, em redes com máscara 192.168.1.0, vamos ter como endereço de broadcast 192.168.1.255.
+
+### DHCP
+---
+O DHCP (Dynamic Host Configuration Protocol) é um protocolo que realiza a configuração dinâmica de endereços IP. Ele é responsável por realizar a atribuição de endereços IP para os dispositivos que estão conectados na rede.
